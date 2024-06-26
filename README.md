@@ -104,15 +104,6 @@ INSERT INTO OrderDetails (OrderID, ISBN, Quantity) VALUES
 (2, '9781234567898', 1);
 ```
 
-
-## Diagram Relasi
-Books berelasi dengan Publishers melalui PublisherID.
-Orders berelasi dengan Customers melalui CustomerID.
-OrderDetails menghubungkan Orders dan Books melalui OrderID dan ISBN.
-Ini menciptakan struktur basis data yang efisien dan terorganisir untuk mengelola toko buku, memungkinkan pelacakan yang mudah terhadap inventaris, pesanan, dan informasi pelanggan.
-
-
-
 ## TRIGGER
 Trigger untuk otomatis memperbarui total pesanan setiap kali detail pesanan ditambahkan atau diubah:
 
